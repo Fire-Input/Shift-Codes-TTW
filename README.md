@@ -2,6 +2,10 @@
 Automatically find and redeem shift codes for Tiny Tina’s Wonderlands
 
 # Setup
+Have python3 installed (Tested on 3.11)
+
+pip install -r requirements.txt
+
 Copy your JWT/Token to token.txt or within the prompt when running the script
 
 # How to get your token
