@@ -2,6 +2,10 @@
 Automatically find and redeem shift codes for Tiny Tina’s Wonderlands
 
 # Setup
+Have python3 installed (Tested on 3.11)
+
+pip install -r requirements.txt
+
 Copy your JWT/Token to token.txt or within the prompt when running the script
 
 # How to get your token
@@ -12,7 +16,9 @@ Copy your JWT/Token to token.txt or within the prompt when running the script
 
 # Usage
 Check that your token is correct and inside token.txt
+
 Run script
+
 Items should be in your in-game mail
 
 # Extra info
@@ -22,4 +28,6 @@ This script is currently for North America(NA) Steam accounts for Tiny Tina's Wo
 regions, and platforms. Might make a config file for this later
 
 # WARNING
-DO NOT SHARE YOUR TOKEN!!!! Anyone who has your token can log into your account.
+DO NOT SHARE YOUR TOKEN!!!!
+
+Anyone who has your token can log into your account!
