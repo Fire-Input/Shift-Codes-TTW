@@ -130,7 +130,7 @@ else:
                             log.write(code + '\n')
                             log.close()
                     else:
-                        print("Code Failed!")   # This means I have no idea why the code failed, just that it did. Prints the whole response which should hopefully explain why it failed, I should make a log file for this...
+                        print("Code Failed!")   # This means I have no idea why the code failed, just that it did. Prints the whole response which should hopefully explain why it failed
                         print(resp)
                         with open("ErrorLog.log", 'a+') as ErrorLog:
                             ErrorLog.write(resp)
