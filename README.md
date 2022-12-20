@@ -13,6 +13,7 @@ Copy your JWT/Token to token.txt or within the prompt when running the script
 2. Open your browsers dev tools and select the Network tab
 3. Find the request header "X-SESSION" in one of the requests. (Reload page if needed)
 4. Copy the value, this is your token. Double check you have copied the WHOLE token, it should have 3 periods(.) in it. (Your token should start with "ey")
+Example Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 
 # Usage
 Check that your token is correct and inside token.txt
